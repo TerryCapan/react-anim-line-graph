@@ -7,6 +7,6 @@ export class YAxis extends Component {
       <div>
         <h2>Y Axis</h2>
       </div>
-    )
+    );
   }
 }

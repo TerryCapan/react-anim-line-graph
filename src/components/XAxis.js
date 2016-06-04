@@ -7,6 +7,6 @@ export class XAxis extends Component {
       <div>
         <h2>X Axis</h2>
       </div>
-    )
+    );
   }
 }

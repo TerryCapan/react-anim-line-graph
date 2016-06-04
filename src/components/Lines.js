@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 
 const axisStyle = {
   stroke: '#000',
-  strokeLinecap: 'round'
+  strokeLinecap: 'round',
 };
 
 export default class Lines extends Component {
 
   _renderLine(line) {
-    return <path key={line.key} stroke="#FF0000" fill="none" d={line.d} />
+    return <path key={line.key} stroke="#FF0000" fill="none" d={line.d} />;
   }
 
   render() {
@@ -22,6 +22,6 @@ export default class Lines extends Component {
           <path style={axisStyle} d="M 0 0 l 0 100" />
         </g>
       </g>
-    )
+    );
   }
 }

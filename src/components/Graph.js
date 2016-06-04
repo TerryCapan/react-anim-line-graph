@@ -50,4 +50,3 @@ Component.defaultProps = {
   min: 0,
   max: 100,
 };
-
